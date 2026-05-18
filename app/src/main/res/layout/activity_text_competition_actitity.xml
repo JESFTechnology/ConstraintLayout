@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".TextCompetitionActitity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize"
+        app:title="Constraint Layout Atividade 3"
+        app:titleTextColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Melhor Texto"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTextLeft"
+        android:justificationMode="inter_word"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:lineSpacingMultiplier="1.1"
+        android:text="Opção A (Foco Científico):\n\nA nova produção documental da Netflix detalha minuciosamente os protocolos falhos de segurança e a física por trás do brilho azul do Césio-137. O roteiro reconstrói os passos da contaminação radioativa em Goiânia sob a perspectiva de físicos e médicos envolvidos na contenção da tragédia, ideal para quem busca uma abordagem técnica, crua e historicamente precisa sobre a resposta de emergência das autoridades e o isolamento da área afetada."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/tvMainTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvTextRight"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+
+    <TextView
+        android:id="@+id/tvTextRight"
+        android:justificationMode="inter_word"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:lineSpacingMultiplier="1.1"
+        android:text="Opção B (Foco Dramático):\n\nUma série dramática ficcional baseada nos sobreviventes da emergência radioativa brasileira. A narrativa acompanha o desespero de famílias inteiras que, sem saber do perigo iminente, se encantaram pela poeira brilhante. Focado no impacto humano, no preconceito sofrido pelas vítimas e no heroísmo dos profissionais de saúde da época, o roteiro promete prender o espectador pelo lado emocional e psicológico do desastre."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/tvMainTitle"
+        app:layout_constraintStart_toEndOf="@id/tvTextLeft"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrierTexts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+
+        app:constraint_referenced_ids="tvTextLeft,tvTextRight" />
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_marginTop="30dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/red"
+        android:text="ESQUERDA"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnDraw"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTextLeft" />
+
+    <Button
+        android:id="@+id/btnDraw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/red"
+        android:text="EMPATE"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="@id/btnLeft"
+        app:layout_constraintStart_toEndOf="@id/btnLeft"
+        app:layout_constraintEnd_toStartOf="@+id/btnRight" />
+
+    <Button
+        android:id="@+id/btnRight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="DIREITA"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/red"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="@id/btnLeft"
+        app:layout_constraintStart_toEndOf="@id/btnDraw"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

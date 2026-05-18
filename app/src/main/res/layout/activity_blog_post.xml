@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".BlogPostActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:minHeight="?attr/actionBarSize"
+            app:title="Constraint Layout Atividade 1"
+            app:titleTextColor="@android:color/white"
+            app:titleTextAppearance="@style/ToolbarTituloBold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/_1u8sxpjgfis267apsjfj76urv"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="O Acidente com o Césio-137 em Goiânia"
+            android:textColor="#555555"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Johann Sacconi"
+            android:textColor="#888888"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle"
+            app:layout_constraintStart_toStartOf="@id/tvTitle" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13/09/1987"
+            android:textColor="#888888"
+            android:textSize="14sp"
+            app:layout_constraintTop_toTopOf="@id/tvAuthor"
+            app:layout_constraintEnd_toEndOf="@id/tvTitle" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="O acidente com o Césio-137 ocorreu em setembro de 1987, em Goiânia (GO), e é considerado o maior acidente radiológico do mundo fora de uma usina nuclear. Tudo começou quando catadores de lixo encontraram um equipamento de radioterapia abandonado e o desmontaram, liberando um pó altamente radioativo que brilhava no escuro. O material foi manipulado e distribuído a familiares e amigos devido ao seu brilho azulado. Ele acabou contaminando centenas de pessoas, ruas e residências. Quatro pessoas morreram nos meses seguintes: Leide das Neves Ferreira, Maria Gabriela Ferreira, Admilson Alves de Souza e Israel Batista dos Santos."
+            android:textColor="#666666"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@id/tvAuthor"
+            app:layout_constraintStart_toStartOf="@id/tvTitle"
+            app:layout_constraintEnd_toEndOf="@id/tvTitle" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="PRÓXIMO"
+            android:backgroundTint="@color/red"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@id/tvContent"
+            app:layout_constraintEnd_toEndOf="@id/tvContent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="ANTERIOR"
+            android:backgroundTint="@color/red"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toTopOf="@id/btnNext"
+            app:layout_constraintEnd_toStartOf="@id/btnNext"
+            app:layout_constraintBottom_toBottomOf="@id/btnNext" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
