@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☢️ ConstraintLayout (Android)
+# ☢️ ConstraintLayout (Android) ☢️
 
 ### Estilo inspirado em *Netflix • Emergência Radioativa*
 
@@ -22,5 +22,12 @@ Que a memória de todos que sofreram jamais seja esquecida, e que essa história
 ---
 
 ### Este projeto possui inspiração visual e narrativa baseada no caso radiológico de Goiânia (1987), tratando o tema com respeito histórico e humano.
+
+<div style="display: flex">
+  <img>
+  <img>
+  <img>
+  <img>
+</div>
 
 </div>
