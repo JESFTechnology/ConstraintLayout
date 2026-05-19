@@ -24,10 +24,10 @@ Que a memória de todos que sofreram jamais seja esquecida, e que essa história
 ### Este projeto possui inspiração visual e narrativa baseada no caso radiológico de Goiânia (1987), tratando o tema com respeito histórico e humano.
 
 <div style="display: flex">
-  <img>
-  <img>
-  <img>
-  <img>
+  <img src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/mian.png">
+  <img src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/blog.png">
+  <img src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/netflix.png">
+  <img src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/compet.png">
 </div>
 
 </div>
