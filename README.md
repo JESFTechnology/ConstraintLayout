@@ -24,10 +24,10 @@ Que a memória de todos que sofreram jamais seja esquecida, e que essa história
 ### Este projeto possui inspiração visual e narrativa baseada no caso radiológico de Goiânia (1987), tratando o tema com respeito histórico e humano.
 
 <div style="display: flex; flex-wrap: wrap;">
-  <img style="width: 25%; height: auto; object-fit: cover;" src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/main.png">
-  <img style="width: 25%; height: auto; object-fit: cover;" src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/blog.png">
-  <img style="width: 25%; height: auto; object-fit: cover;" src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/netflix.png">
-  <img style="width: 25%; height: auto; object-fit: cover;" src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/compet.png">
+  <img style="width: 24%; height: auto; object-fit: cover;" src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/main.png">
+  <img style="width: 24%; height: auto; object-fit: cover;" src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/blog.png">
+  <img style="width: 24%; height: auto; object-fit: cover;" src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/netflix.png">
+  <img style="width: 24%; height: auto; object-fit: cover;" src="https://github.com/JESFTechnology/ConstraintLayout/blob/master/app/src/main/java/mch/ifsuldeminas/edu/constraint_layout/images_layout/compet.png">
 </div>
 
 </div>
