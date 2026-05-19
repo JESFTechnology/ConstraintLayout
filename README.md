@@ -4,7 +4,7 @@
 
 ### Estilo inspirado em *Netflix • Emergência Radioativa*
 
-<img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-8b0000?style=for-the-badge&logo=android&logoColor=white"/>
+<img src="https://img.shields.io/badge/STATUS-PRONTO-8b0000?style=for-the-badge&logo=android&logoColor=white"/>
 
 ---
 
